@@ -21,8 +21,8 @@
     "bindings": "^1.2.1",
     "nan": "^2.6.2"
   },
-  "repository": { 
-    "type" : "git", 
-    "url" : "https://github.com/voodooattack/shared-buffer.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voodooattack/shared-buffer.git"
   }
 }
