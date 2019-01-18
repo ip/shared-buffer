@@ -43,7 +43,7 @@ NAN_METHOD(createSharedBuffer) {
 
   v8::Persistent<v8::ArrayBuffer> buffer(isolate, v8::ArrayBuffer::New(isolate, (void*)data, size));
 
-  buffer.SetWeak(data, &weakBufferCallback, v8::WeakCallbackType::kParameter);
+  // buffer.SetWeak(data, &weakBufferCallback, v8::WeakCallbackType::kParameter);
 
   info.GetReturnValue().Set(Nan::New<v8::ArrayBuffer>(buffer));
 }
